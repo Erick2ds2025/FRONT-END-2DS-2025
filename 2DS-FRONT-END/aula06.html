@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando listas</title>
+
+    <style>
+
+        ul li{
+            list-style-type: none;
+        }
+
+        ul{
+            display: flex;
+            column-count: 3;
+            column-gap: 20px;
+        }
+
+        li{
+            opacity: 0;
+            animation: fadeIn 0.5s ease forwards;
+        }
+
+        @keyframes fadeIn{
+            to{
+                opacity: 4;
+            }
+        }
+
+        li:nth-child(1) { animation-delay: 0.5s;}
+        li:nth-child(2) { animation-delay: 0.8s;}
+        li:nth-child(3) { animation-delay: 1s;}
+
+        </style>
+</head>
+<body>
+
+    <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+    
+</body>
+</html>

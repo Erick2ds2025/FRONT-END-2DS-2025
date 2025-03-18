@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    width: 100%;
+    height: 100vh;
+}
+
+.caixa{
+    margin: 20px;
+    background-color: burlywood;
+}
+
+#espacador{
+    padding: 200px;
+    background: linear-gradient(90de, black 0%, gray 35%, white 100%);
+}

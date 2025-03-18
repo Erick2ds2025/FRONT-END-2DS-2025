@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(206, 196, 196);
+}
+
+h1{
+    color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    color: white;
+}
+
+ul{
+    background-color: greenyellow;
+    width: 200px;
+}
+
+#container{
+    background-color: rgb(62, 59, 59);
+    width: 75%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+    border-radius: 20px;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(47, 39, 133);
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.neyma{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: 1s all;
+}
+
+.neyma:hover{
+    transform: scale(1.2);
+}
